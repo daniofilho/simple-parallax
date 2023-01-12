@@ -10,14 +10,14 @@ body {
 header {
   position: relative;
 
-  background-image: url('assets/img/sky.png');
+  background-image: url('../img/sky.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   height: 100vh;
 
   #divider {
-    background-image: url('assets/img/divider.png');
+    background-image: url('../img/divider.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
