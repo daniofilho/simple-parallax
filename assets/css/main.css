@@ -167,7 +167,7 @@ img {
 }
 
 #parallax-1 {
-  background-image: url("/assets/img/parallax-1.png");
+  background-image: url("../img/parallax-1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -175,7 +175,7 @@ img {
 }
 
 #parallax-2 {
-  background-image: url("/assets/img/parallax-2.png");
+  background-image: url("../img/parallax-2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -183,7 +183,7 @@ img {
 }
 
 #parallax-3 {
-  background-image: url("/assets/img/parallax-3.png");
+  background-image: url("../img/parallax-3.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -191,7 +191,7 @@ img {
 }
 
 #parallax-4 {
-  background-image: url("/assets/img/parallax-4.png");
+  background-image: url("../img/parallax-4.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

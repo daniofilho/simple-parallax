@@ -10,7 +10,7 @@
 @mixin background($number) {
   @extend .background;
 
-  background-image: url('/assets/img/parallax-' + $number + '.png');
+  background-image: url('../img/parallax-' + $number + '.png');
   background-size: cover;
   background-repeat: no-repeat;  
   background-attachment: fixed;
