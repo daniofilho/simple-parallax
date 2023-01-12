@@ -1,0 +1,24 @@
+.background {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@mixin background($number) {
+  @extend .background;
+
+  background-image: url('/assets/img/parallax-' + $number + '.png');
+  background-size: cover;
+  background-repeat: no-repeat;  
+  background-attachment: fixed;
+  background-position: center;  
+}
+
+@for $i from 1 through 4 {
+  #parallax-#{$i} {
+    @include background($i);
+  }
+}
