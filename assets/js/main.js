@@ -31,14 +31,6 @@ const parallaxController = () => {
   const run = () => {
     startBackgrounds();
     parallaxControll();
-
-    // Scroll down a bit so user know there is more content
-    setTimeout(() => {
-      window.scrollTo({
-        top: 200,
-        behavior: "smooth",
-      });
-    }, 2000);
   };
 
   // * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
